@@ -14,7 +14,5 @@ int main(void) {
             j -= 10;
         }
     }
-
-    printf("\n");
     return 0;
 }
