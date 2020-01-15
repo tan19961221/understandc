@@ -17,9 +17,8 @@ int main(void) {
     do {
         x = x - 1;
         sum += min + x;
-    } while (x != 0);
+    } while (x != 1);
 
-    sum += max;
-    printf("大于等于%d 小于等于%d 的所有整数的和是%d", min, max, sum);
+    printf("%d 和%d 之间所有整数的和是%d", min, max, sum);
     return 0;
 }
